@@ -22,13 +22,13 @@
 - [General] Support 16k page size
 - [General] Add basic support for RISC-V (not built in releases)
 - [General] Use a minimal libc to build static executables (`magiskinit` and `magiskboot`) for smaller sizes
-- [Core] Remove unnecessary mirror for magic mount
-- [Core] Update boot image detection logic to support more devices
-- [MagiskInit] Rewrite 2SI logic for injecting `magiskinit` as `init`
-- [MagiskInit] Update preinit partition detection
-- [Zygisk] Update internal JNI hooking implementation
-- [MagiskPolicy] Preserve sepolicy config flag after patching
-- [MagiskPolicy] Optimize patching rules to reduce the amount of new rules being injected
+- [El núcleo]  Eliminar espejo innecesario para el montaje mágico
+- [El núcleo]  Actualice la lógica de detección de imágenes de arranque para admitir más dispositivos
+- [MagiskInit]   Reescribir la lógica 2SI para inyectar ' como 'init` 
+- [MagiskInit] Actualizar la detección de particiones preinit
+- [Zygisk]  Actualizar la implementación interna de gancho JNI
+- [Política de Magisco]  Preservar la bandera de configuración de la política después del parcheo
+- [MagiskPolicy] Optimice las reglas de parches para reducir la cantidad de nuevas reglas que se inyectan.
 - [DenyList] Support enforcing denylist when Zygisk is disabled
 - [Resetprop] Improve implementation to workaround several property modification detections
 - [Resetprop] Update to properly work with property overlays
