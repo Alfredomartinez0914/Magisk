@@ -22,7 +22,7 @@
 - [General] Support 16k page size
 - [General] Add basic support for RISC-V (not built in releases)
 - [General] Use a minimal libc to build static executables (`magiskinit` and `magiskboot`) for smaller sizes
-- [Core] Remove unnecessary mirror for magic mount
+- [Core] Eliminar espejo innecesario para el montaje mágico
 - [Core] Update boot image detection logic to support more devices
 - [MagiskInit] Rewrite 2SI logic for injecting `magiskinit` as `init`
 - [MagiskInit] Update preinit partition detection
@@ -35,7 +35,7 @@
 - [App] Major internal code refactoring
 - [App] Support patching Samsung firmware with images larger than 8GiB
 - [App] Use user-initiated job instead of foreground services on Android 14
-- [App] Support Android 13+ built-in per-app language preferences
+- [App] Admite las preferencias de idioma integradas de Android 13+ por aplicación
 - [App] Add `action.sh` support to allow modules to define an action triggered from UI
 - [MagiskBoot] Support spliting kernel images without decompression
 - [MagiskBoot] Properly support vendor boot images
